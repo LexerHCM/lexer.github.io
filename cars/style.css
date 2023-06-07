@@ -1,0 +1,89 @@
+@font-face{
+font-family:Little_days;
+src:url("fuentes_cars/Little_days.ttf");
+}
+body{
+	background-color:#de4040;
+}
+h1{
+	font-family:Little_days;
+color:#dbd830;
+text-align:center;
+font-size:60px;
+background-color:#e6a340;
+border-style:solid;
+text-shadow:2px 2px 2px black;
+}
+h2{
+	color:#e6a340;
+}
+p{
+	font-family:Little_days;
+	font-size:35px;
+	color:#dbd830;
+	text-align:6%;
+	margin-left:4%;
+	margin-right:4%;
+	margin-top:20px;
+	text-shadow:2px 2px 2px black;
+}
+table{
+	color:#dbd830;
+}
+ul{
+	text-align:6%;
+	margin-left:4%;
+	margin-right:4%;
+	font-family:Little_days;
+	color:#2a364a;
+	font-size:25px;
+	text-shadow:1px 1px 1px black;
+}
+
+ol{
+	text-align:6%;
+	margin-left:4%;
+	margin-right:4%;
+	font-family:Little_days;
+	color:#2a364a;
+	font-size:25px;
+	text-shadow:1px 1px 1px black;
+}
+img{
+	text-align:center;
+	border-style:double;/*bordecito*/
+	border-width:15px;/*grosor*/
+	border-color:36c7d1;
+	border-radius:100px;
+	display:block;
+	margin:auto;
+	
+}
+.diferente{ /*para las imagenes de la galeria*/
+	display:inline;
+    text-align:center;
+	border-style:double;/*bordecito*/
+	margin-left:5%;
+	margin-right:5%;
+}
+a:link{
+	color:#020c1c;
+	background-color:#b00c2d;
+	margin-left:0.1%;
+	margin-right:0.1%;
+	border-style:ridge;
+}
+.links_img:hover{
+	background-color:transparent;
+	text-decoration:none;
+}
+.links_img:link{
+	background-color:transparent;
+	border-style:none;
+	
+}
+
+a:hover{
+	color:#c93654;
+	background-color:#f2dfe3;
+}
